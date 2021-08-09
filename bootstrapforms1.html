@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <p>Normal table: </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <th>Vedant</th>
+                <th>Student</th>
+                <th>CEO and CTO</th>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <th>Moma</th>
+                <th>Head</th>
+                <th>CFO</th>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <th>Popa</th>
+                <th>Head</th>
+                <th>COO</th>
+            </tr>
+        </tbody>
+    </table>
+    <p>Color coded table row cells: </p>
+    <table class="table">
+        <thead>
+            <tr class="table-success">
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-warning">
+                <th scope="row">1</th>
+                <th>Vedant</th>
+                <th>Student</th>
+                <th>CEO and CTO</th>
+            </tr>
+            <tr class="table-danger">
+                <th scope="row">2</th>
+                <th>Moma</th>
+                <th>Head</th>
+                <th>CFO</th>
+            </tr>
+            <tr class="table-info">
+                <th scope="row">3</th>
+                <th>Popa</th>
+                <th>Head</th>
+                <th>COO</th>
+            </tr>
+        </tbody>
+    </table>
+    <p>Color coded table cell wise section cells: </p>
+    <table class="table text-center">
+        <thead>
+            <tr>
+                <th class="table-success" scope="col">#</th>
+                <th class="table-success" scope="col">Name</th>
+                <th class="table-success" scope="col">Role</th>
+                <th class="table-success" scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="table-success" scope="row">1</th>
+                <th class="table-warning" >Vedant</th>
+                <th class="table-danger" >Student</th>
+                <th class="table-dark" >CEO and CTO</th>
+            </tr>
+            <tr>
+                <th class="table-success" scope="row">2</th>
+                <th class="table-warning" >Moma</th>
+                <th class="table-danger" >Head</th>
+                <th class="table-dark" >CFO</th>
+            </tr>
+            <tr>
+                <th class="table-success" scope="row">3</th>
+                <th class="table-warning" >Popa</th>
+                <th class="table-danger" >Head</th>
+                <th class="table-dark" >COO</th>
+            </tr>
+        </tbody>
+    </table>
+    <p>Color coded table row cells with the hover effect: </p>
+    <table class="table table-hover">
+        <thead>
+            <tr class="table-success">
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-warning">
+                <th scope="row">1</th>
+                <th>Vedant</th>
+                <th>Student</th>
+                <th>CEO and CTO</th>
+            </tr>
+            <tr class="table-danger">
+                <th scope="row">2</th>
+                <th>Moma</th>
+                <th>Head</th>
+                <th>CFO</th>
+            </tr>
+            <tr class="table-info">
+                <th scope="row">3</th>
+                <th>Popa</th>
+                <th>Head</th>
+                <th>COO</th>
+            </tr>
+        </tbody>
+    </table>
+    <p>table-striped</p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr">
+                <th scope="row">1</th>
+                <th>Vedant</th>
+                <th>Student</th>
+                <th>CEO and CTO</th>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <th>Moma</th>
+                <th>Head</th>
+                <th>CFO</th>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <th>Popa</th>
+                <th>Head</th>
+                <th>COO</th>
+            </tr>
+        </tbody>
+    </table>
+    <p>table-striped table-dark</p>
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr">
+                <th scope="row">1</th>
+                <th>Vedant</th>
+                <th>Student</th>
+                <th>CEO and CTO</th>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <th>Moma</th>
+                <th>Head</th>
+                <th>CFO</th>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <th>Popa</th>
+                <th>Head</th>
+                <th>COO</th>
+            </tr>
+        </tbody>
+    </table>
+    <p>table-striped table-dark table-hover</p>
+    <table class="table table-dark table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr">
+                <th scope="row">1</th>
+                <th>Vedant</th>
+                <th>Student</th>
+                <th>CEO and CTO</th>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <th>Moma</th>
+                <th>Head</th>
+                <th>CFO</th>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <th>Popa</th>
+                <th>Head</th>
+                <th>COO</th>
+            </tr>
+        </tbody>
+    </table>
+    <p>table-striped table-dark table-responsive</p>
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr">
+                <th scope="row">1</th>
+                <th>Vedant</th>
+                <th>Student</th>
+                <th>CEO and CTO</th>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <th>Moma</th>
+                <th>Head</th>
+                <th>CFO</th>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <th>Popa</th>
+                <th>Head</th>
+                <th>COO</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
